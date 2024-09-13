@@ -1,0 +1,10 @@
+/Data/mysql
+.DS_Store
+.vscode
+/Web/App/test.php
+/Web/Journal/database-related.log
+/Web/Journal/errors.log
+/Web/Journal/exceptions.log
+/Web/Journal/fatal-errors.log
+/Web/Journal/mysql/*.log
+/Web/App/Views/test.php

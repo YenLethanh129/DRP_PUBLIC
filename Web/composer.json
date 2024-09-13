@@ -1,0 +1,26 @@
+{
+  "name": "web/drp",
+  "version": "1.0.0",
+  "description": "A small web app project for managing recipe",
+  "type": "project",
+  "license": "MIT",
+  "require": {
+    "php": "^8.2",
+    "ext-pdo": "*",
+    "ext-pdo_mysql": "*",
+    "predis/predis": "*"
+  },  
+  "autoload": {
+    "psr-4": {
+      "App\\": "App/",
+      "App\\Controllers\\":"App/Controllers/",
+      "App\\Models\\":"App/Models/",
+      "App\\Core\\":"App/Core/",
+      "App\\Views\\":"App/Views/",
+      "App\\Controllers\\Auth\\": "App/Controllers/Views/",
+      "App\\Operations\\": "App/Operations/",
+      "App\\Utils\\": "App/Utils/" 
+
+    }
+  }
+}
